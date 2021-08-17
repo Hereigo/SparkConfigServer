@@ -1,0 +1,12 @@
+
+# локальный URL-адрес git для сервера конфигурации Spring Cloud
+spring.application.name: config_server
+server:
+port: 8888
+eureka:
+client:
+serviceUrl:
+defaultZone: http://localhost:8761/eureka/
+spring:  
+ profiles:   
+  active: native
