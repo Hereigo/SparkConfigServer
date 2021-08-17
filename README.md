@@ -1,2 +1,2 @@
-# SparkConfigServer
-Spark Config Server
+# SpringConfigServer
+Spring Config Server
