@@ -1,8 +1,9 @@
 spring:
-   profiles:   
-    active: native
+    profiles:
+        active: native
+
 application:
-name: config_client
+name: client
 cloud:
 config:
 label: latest
@@ -14,4 +15,3 @@ eureka:
 client:
 serviceUrl:
 defaultZone: http://localhost:8761/eureka/
-
